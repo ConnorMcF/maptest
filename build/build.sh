@@ -8,7 +8,7 @@ mkdir out
 
 echo "## Making sure game is present and up-to-date.."
 
-$STEAMCMD_PATH/steamcmd.sh +login anonymous +force_install_dir $APP_PATH +app_update $APP_ID validate +quit
+$STEAMCMD_PATH/steamcmd.sh +login $STEAM_USER $STEAM_PASS +force_install_dir $APP_PATH +app_update $APP_ID validate +quit
 
 echo "## Pretending to compile map.."
 
