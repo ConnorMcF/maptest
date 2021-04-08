@@ -4,7 +4,7 @@ STEAMCMD_PATH="/opt/steam"
 APP_ID=730
 APP_PATH="./csgogame"
 
-mkdir out
+mkdir -p out
 
 echo "## Making sure game is present and up-to-date.."
 
